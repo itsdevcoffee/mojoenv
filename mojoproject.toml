@@ -1,0 +1,12 @@
+[project]
+authors = ["itsdevcoffee <itstexmex@gmail.com>"]
+channels = ["conda-forge", "https://conda.modular.com/max-nightly"]
+description = "A lightweight and simple .env loader written in Mojo, designed to load environment variables from a .env file."
+name = "mojoenv"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = ">=24.6.0.dev2024101305,<25"
