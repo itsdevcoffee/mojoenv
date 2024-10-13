@@ -1,6 +1,6 @@
 from collections import Dict, List
-from pathlib import Path, _dir_of_current_file, cwd
-from os import setenv, getenv
+from pathlib import cwd
+from os import setenv
 from os.path import exists
 
 struct MojoEnvParser:
