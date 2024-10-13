@@ -41,7 +41,9 @@ fn main() raises:
 
 ## API
 
-### `load_mojo_env(env_path: String = ".env", should_append_cwd: Bool = True) raises -> Dict[String, String]`
+```mojo
+    load_mojo_env(env_path: String = ".env", should_append_cwd: Bool = True) raises -> Dict[String, String]
+```
 
 Loads environment variables from a `.env` file and sets them in the current process environment.
 
