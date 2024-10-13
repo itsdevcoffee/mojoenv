@@ -1,4 +1,4 @@
-from os import getenv, setenv
+from os import getenv
 from mojoenv import load_mojo_env
 
 fn main():

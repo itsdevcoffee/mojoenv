@@ -25,6 +25,7 @@ DEBUG=True
 3. In your Mojo script, import and use the `load_mojo_env` function:
 
 ```mojo
+from os import getenv
 from mojoenv import load_mojo_env
 
 fn main() raises:
